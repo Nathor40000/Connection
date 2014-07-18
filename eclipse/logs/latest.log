@@ -1,0 +1,25 @@
+[11:32:40] [main/INFO]: Setting user: Player562
+[11:32:40] [Client thread/INFO]: LWJGL Version: 2.9.0
+[11:32:43] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod, FMLFileResourcePack:NCWMod Core
+[11:32:44] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[11:32:44] [Sound Library Loader/INFO]: Sound engine started
+[11:32:44] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[11:32:44] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod, FMLFileResourcePack:NCWMod Core
+[11:32:44] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[11:32:44] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[11:32:45] [Sound Library Loader/INFO]: Sound engine started
+[11:32:46] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
+[11:32:50] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
+[11:32:50] [Server thread/INFO]: Generating keypair
+[11:32:50] [Server thread/INFO]: Preparing start region for level 0
+[11:32:53] [Server thread/INFO]: Player562[local:E:f519b74d] logged in with entity id 309 at (59.30000001192093, 70.0, 258.23750001192093)
+[11:32:53] [Server thread/INFO]: Player562 joined the game
+[11:32:57] [Client thread/INFO]: Stopping!
+[11:32:57] [Server thread/INFO]: Stopping server
+[11:32:57] [Server thread/INFO]: Saving players
+[11:32:57] [Server thread/INFO]: Saving worlds
+[11:32:57] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:32:57] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:32:57] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:32:57] [Client Shutdown Thread/INFO]: Stopping server
+[11:32:57] [Client Shutdown Thread/INFO]: Saving players

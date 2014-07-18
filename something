@@ -1,0 +1,46 @@
+public static double getGravityForEntity(EntityLivingBase eLiving)
+/*     */   {
+/*  97 */     if ((eLiving.field_70170_p.field_73011_w instanceof IGalacticraftWorldProvider))
+/*     */     {
+/*  99 */       IGalacticraftWorldProvider customProvider = (IGalacticraftWorldProvider)eLiving.field_70170_p.field_73011_w;
+/*     */ 
+/* 101 */       if ((eLiving instanceof EntityPlayer))
+/*     */       {
+/* 103 */         if ((FMLCommonHandler.instance().getEffectiveSide() == Side.CLIENT) && ((eLiving instanceof GCCorePlayerSP)))
+/*     */         {
+/* 105 */           return ((GCCorePlayerSP)eLiving).touchedGround ? 0.08D - customProvider.getGravity() : 0.08D;
+/*     */         }
+/* 107 */         if ((eLiving instanceof GCCorePlayerMP))
+/*     */         {
+/* 109 */           return ((GCCorePlayerMP)eLiving).isTouchedGround() ? 0.08D - customProvider.getGravity() : 0.08D;
+/*     */         }
+/*     */ 
+/* 113 */         return 0.08D;
+/*     */       }
+/*     */ 
+/* 118 */       return 0.08D - customProvider.getGravity();
+/*     */     }
+/*     */ 
+/* 123 */     return 0.08D;
+/*     */   }
+/*     */ 
+/*     */   public static double getItemGravity(EntityItem e)
+/*     */   {
+/* 129 */     if ((e.field_70170_p.field_73011_w instanceof IGalacticraftWorldProvider))
+/*     */     {
+/* 131 */       IGalacticraftWorldProvider customProvider = (IGalacticraftWorldProvider)e.field_70170_p.field_73011_w;
+/* 132 */       return 0.03999999910593033D - ((customProvider instanceof IOrbitDimension) ? 0.05999999910593033D : customProvider.getGravity()) / 1.75D;
+/*     */     }
+/*     */ 
+/* 136 */     return 0.03999999910593033D;
+/*     */   }
+/*     */ 
+/*     */   public static double getItemGravity2(EntityItem e)
+/*     */   {
+/* 142 */     if ((e.field_70170_p.field_73011_w instanceof IGalacticraftWorldProvider))
+/*     */     {
+/* 144 */       return 1.0D;
+/*     */     }
+/*     */ 
+/* 148 */     return 0.9800000190734863D;
+/*     */   }
